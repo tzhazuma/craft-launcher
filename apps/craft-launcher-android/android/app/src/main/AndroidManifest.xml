@@ -28,6 +28,7 @@
         <package android:name="ai.storyteller.vectorcraft" />
         <package android:name="ai.storyteller.wordcraft" />
         <package android:name="ai.storyteller.solidcraft" />
+        <package android:name="ai.storyteller.mailcraft" />
     </queries>
 
     <application

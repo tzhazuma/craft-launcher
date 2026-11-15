@@ -66,6 +66,9 @@ public class MainActivity extends GameActivity {
                 // SolidCraft's declared bundle is io.tangencylabs.solidcraft, but it shipped under
                 // this id before and the filter below only accepts ai.storyteller.*.
                 "ai.storyteller.solidcraft",
+                // MailCraft declares io.github.billsecond.mailcraft; the Android port ships under
+                // this id (declared in the catalog's former_bundles) for the same reason.
+                "ai.storyteller.mailcraft",
         };
         java.util.Set<String> seen = new java.util.LinkedHashSet<>();
         for (String name : suite) {
